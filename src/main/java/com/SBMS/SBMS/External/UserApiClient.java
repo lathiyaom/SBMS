@@ -15,7 +15,7 @@ public class UserApiClient {
 
     public UsersResponse getUser() {
         try {
-            return restClient.get().uri("https://dummyjson.com/image/150")
+            return restClient.get().uri("https://jsonplaceholder.typicode.com/users")
                     .retrieve()
                     .body(UsersResponse.class);
         } catch (Exception ex) {

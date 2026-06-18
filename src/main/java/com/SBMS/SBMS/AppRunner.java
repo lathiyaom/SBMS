@@ -16,6 +16,6 @@ public class AppRunner implements CommandLineRunner {
     @Override
     public void run(String... args) {
 
-        userService.printUser();
+//        userService.printUser();
     }
 }
